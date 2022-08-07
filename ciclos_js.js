@@ -124,8 +124,8 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
 
-  if (numero == Math.floor(numero)) return 'true';
-  return 'false';
+  return numero === Math.floor(numero);
+
 }
 
 console.log(esEntero());
