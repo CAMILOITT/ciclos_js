@@ -126,6 +126,8 @@ function esEntero(numero) {
 
   return numero === Math.floor(numero);
 
+  //segunda solucion
+  return Number.isInteger(numero);
 }
 
 console.log(esEntero());
